@@ -498,7 +498,7 @@ body{
     .hamb .nav_links ul{
         flex-direction: column;
         font-size: 15px;
-        margin-top: -150px;
+        margin-top: -200px;
     }
     .hamb .nav_links ul li{
         margin: 20px;
