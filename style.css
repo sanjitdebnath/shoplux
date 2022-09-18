@@ -458,7 +458,7 @@ body{
 
 /* media query start from there........ */
 
-@media screen and (max-width : 480px){
+@media screen and (max-width : 400px){
     body{
         display: flex;
         justify-content: center;
