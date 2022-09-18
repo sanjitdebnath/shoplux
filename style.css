@@ -485,7 +485,7 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        display: none;
+/*         display: none; */
         transition: 0.5s;
     }
     .hamb .nav_links ul{
