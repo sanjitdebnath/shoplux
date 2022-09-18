@@ -460,8 +460,15 @@ body{
 
 @media screen and (max-width : 480px){
     body{
-        width: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 400px;
         overflow-x: hidden;
+        /* background-color: black; */
+        padding:0 2rem;
+        padding-left: 1rem;
     }
     .navbar .logo{
         font-size:25px ;
@@ -471,7 +478,7 @@ body{
         top: 0;
         right: -100%;
         width: 70%;
-        height: 100vh;
+        height: 110vh;
         background-color: var(--primary_col);
         z-index: 2;
         display: flex;
