@@ -464,11 +464,18 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 400px;
-        overflow-x: hidden;
+        /* width: auto; */
         /* background-color: black; */
         padding:0 2rem;
-        padding-left: 1rem;
+        /* padding-left: 1rem; */
+        /* position: relative; */
+    }
+    .header
+    {
+        width: 119%;
+        position: relative;
+        padding: 0 2rem;
+        overflow: hidden;
     }
     .navbar .logo{
         font-size:25px ;
